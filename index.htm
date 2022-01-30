@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faizan PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resp.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <style>
+        .nav-link {
+            color: white;
+        }
+        
+        .nav-link:hover {
+            color: var(--blue);
+        }
+        
+        .nav-item {
+            margin-inline: 1rem;
+        }
+        
+        .section-title {
+            position: relative;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark p-3" style="justify-content:space-between;">
+
+        <h2 class="navbar-brand m-2 ml-4">
+            <a href="#" style="text-decoration:none;color:white;display: flex;justify-content: center;align-items: center;">
+                <img src="logo.jpeg" ""="" width="60" height="50" class="d-inline-block align-text-top"> Faizan Raza</a>
+        </h2>
+
+        <ul class="navbar-nav">
+            <li class="nav-item"><a href="#welcome-section" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Gallery</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- navbar ended here -->
+
+    <section id="welcome-section">
+        <h1 class="wel-header"> Hey I am Faizan</h1>
+        <p class="wel-subtitle">a traveller</p>
+    </section>
+
+    <!-- {% comment %}
+    <section id="skills" style="display:flex;flex-direction:column;align-items:center;padding-top:4rem;padding-bottom:4rem;">
+        <h1 class="section-title">Skills</h2>
+            <div style="display:flex;align-items:center;justify-content:space-evenly;margin:2rem;">
+                <div class="skill-container container-python skill__card">
+                    <i class="devicon-python-plain-wordmark skill-icon"></i>
+                    <h6 style="font-weight:600;margin-top:1rem;margin-bottom:3rem;">Python</h6>
+                    <div class="skill__percent" style="width:88%;"></div>
+                </div>
+                <div class="skill-container container-java skill__card">
+                    <i class="devicon-java-plain-wordmark skill-icon"></i>
+                    <h6 style="font-weight:600;margin-top:1rem;margin-bottom:3rem;">Java</h6>
+                    <div class="skill__percent" style="width:72%;"></div>
+                </div>
+                <div class="skill-container container-cpp skill__card">
+                    <i class="devicon-cplusplus-line-wordmark skill-icon"></i>
+                    <h6 style="font-weight:600;margin-top:1rem;margin-bottom:3rem;">C++</h6>
+                    <div class="skill__percent" style="width:91%;"></div>
+                </div>
+                <div class="skill-container container-js skill__card">
+                    <i class="devicon-javascript-plain skill-icon"></i>
+                    <h6 style="font-weight:600;margin-top:1rem;margin-bottom:3rem;">JavaScript</h6>
+                    <div class="skill__percent" style="width:72%;"></div>
+                </div>
+            </div>
+    </section> {% endcomment %} -->
+
+    <!-- welcome-section ended here -->
+    <section id="projects" style="display:flex;flex-direction:column;align-items:center;padding-top:4rem;padding-bottom:4rem;">
+        <h1 class="section-title" style="color:white;;">Gallery</h2>
+            <div class="project-tile">
+                <div class="col-in-mobile" style="display:flex;justify-content:center;">
+                    <a href="#" class="grid-item">
+                        <img class="proj-image" src="https://i.ibb.co/cKWHdC6/Whats-App-Image-2022-01-30-at-8-36-31-AM.jpg" alt="">
+                        <p class="figcaption">
+                            <span class="">Evening</span>
+                        </p>
+                    </a>
+
+                    <a href="#" class="grid-item">
+                        <img class="proj-image" src="https://i.ibb.co/f4vYwD0/gal6.png" alt="">
+                        <p class="figcaption">
+                            <span class="">Mode</span>
+                        </p>
+                    </a>
+
+                    <a href="#" class="grid-item">
+                        <img class="proj-image" src="https://i.ibb.co/G9g11Xc/gal4.png" alt="">
+                        <p class="figcaption">
+                            <span class="">Festival Event</span>
+                        </p>
+                    </a>
+                </div>
+                <div class="col-in-mobile" style="display:flex;justify-content:center;">
+                    <a href="#" class="grid-item">
+                        <img class="proj-image" src="https://i.ibb.co/G9g11Xc/gal4.png" alt="">
+                        <p class="figcaption">
+                            <span class="">Festival Event</span>
+                        </p>
+                    </a>
+
+                    <a href="#" class="grid-item">
+                        <img class="proj-image" src="https://i.ibb.co/37pRsZm/gallery1.png" alt="">
+                        <p class="figcaption">
+                            <span class="">Hangout</span>
+                        </p>
+                    </a>
+
+                    <a href="#" class="grid-item">
+                        <img class="proj-image" src="https://i.ibb.co/hWqMYSr/gal3.png" alt="">
+                        <p class="figcaption">
+                            <span class="">Remind Memories </span>
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="btn-div">
+                <a href="#" class="btn">Show all
+                <i class="fa fa-chevron-right"></i>
+            </a>
+            </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="contact-header">
+            <h1 class="contact-text">Let's work together...</h1>
+            <p class="cont-para">Here are the details where you can chat with me.</p>
+        </div>
+        <div class="contact-links">
+            <a href="https://www.facebook.com/profile.php?id=100077705798589">
+                <i class="fa fa-facebook-square"></i> Facebook
+            </a>
+            <a id="profile-link" target="_blank" href="https://www.instagram.com/diwana_e_tajushshariah/">
+                <i class="fa fa-instagram"></i> Instagram
+            </a>
+            <a id="profile-link" target="_blank" href="https://twitter.com/FaizanR32060999?s=09">
+                <i class="fa fa-twitter"></i> Twitter
+            </a>
+            <a href="https://wa.me/8318598686">
+                <i class="fa fa-at"></i>WhatsApp
+            </a>
+        </div>
+    </section>
+    <footer>
+        <!-- <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p> -->
+        <p>© Created<a class="footer-fa" href="https://www.instagram.com/la_rabs_/" target="_blank"> Rabs</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
